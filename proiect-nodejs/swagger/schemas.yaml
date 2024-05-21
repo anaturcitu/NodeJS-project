@@ -1,0 +1,155 @@
+components:
+  schemas:
+    SignupDto:
+      type: object
+      required:
+        - username
+        - password
+      properties:
+        username:
+          type: string
+          minLength: 3
+          maxLength: 30
+        password:
+          type: string
+          minLength: 6
+          maxLength: 20
+    LoginDto:
+      type: object
+      required:
+        - username
+        - password
+      properties:
+        username:
+          type: string
+          minLength: 3
+          maxLength: 30
+        password:
+          type: string
+          minLength: 6
+          maxLength: 20
+    CreatePostDto:
+      type: object
+      required:
+        - title
+        - content
+      properties:
+        title:
+          type: string
+          description: The title of the post
+        content:
+          type: string
+          description: The content of the post
+        tags:
+          type: array
+          description: An array of tags associated with the post
+          items:
+            type: string
+      example:
+        title: "Example Post"
+        content: "This is an example post content"
+        tags: ['TAG 1', 'TAG 2']
+
+    UpdatePostDto:
+      type: object
+      required:
+        - title
+        - content
+      properties:
+        title:
+          type: string
+          description: The updated title of the post
+        content:
+          type: string
+          description: The updated content of the post
+        tags:
+          type: array
+          description: An array of tags associated with the post
+          items:
+            type: string
+      example:
+        title: "Example Post"
+        content: "This is an example post content"
+        tags: ['TAG 1', 'TAG 2']
+
+    CreateCommentDto:
+      type: object
+      required:
+        - postId
+        - content
+      properties:
+        postId:
+          type: integer
+          format: int32
+          description: The unique identifier of the post
+        content:
+          type: string
+          description: The content of the comment
+      example:
+        postId: 1
+        content: "This is an example comment content"
+
+    UpdateCommentDto:
+      type: object
+      required:
+        - content
+      properties:
+        content:
+          type: string
+          description: The updated content of the post
+
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          description: The unique identifier of the user
+        username:
+          type: string
+          description: The username of the user
+        email:
+          type: string
+          format: email
+          description: The email address of the user
+    Post:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          description: The unique identifier of the post
+        title:
+          type: string
+          description: The title of the post
+        content:
+          type: string
+          description: The content of the post
+        createdAt:
+          type: string
+          format: date-time
+          description: The timestamp when the post was created
+        author:
+          $ref: '#/components/schemas/User'
+        tags:
+          type: array
+          items:
+            $ref: '#/components/schemas/Tag'
+    Comment:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          description: The unique identifier of the comment
+        content:
+          type: string
+          description: The content of the comment
+        createdAt:
+          type: string
+          format: date-time
+          description: The timestamp when the comment was created
+        post:
+          $ref: '#/components/schemas/Post'
+        author:
+          $ref: '#/components/schemas/User'

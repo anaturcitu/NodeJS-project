@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1716237307335" clover="3.2.0">
+  <project timestamp="1716237307336" name="All files">
+    <metrics statements="34" coveredstatements="15" conditionals="6" coveredconditionals="1" methods="11" coveredmethods="4" elements="51" coveredelements="20" complexity="0" loc="34" ncloc="34" packages="4" files="4" classes="4"/>
+    <package name="proiect-nodejs">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="client.js" path="C:\Users\Ana\Desktop\proiect-nodejs\proiect-nodejs\client.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="proiect-nodejs.src.constants">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="prisma-errors.js" path="C:\Users\Ana\Desktop\proiect-nodejs\proiect-nodejs\src\constants\prisma-errors.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="proiect-nodejs.src.services">
+      <metrics statements="30" coveredstatements="11" conditionals="6" coveredconditionals="1" methods="10" coveredmethods="3"/>
+      <file name="posts.js" path="C:\Users\Ana\Desktop\proiect-nodejs\proiect-nodejs\src\services\posts.js">
+        <metrics statements="30" coveredstatements="11" conditionals="6" coveredconditionals="1" methods="10" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="85" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+        <line num="98" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="proiect-nodejs.src.utils">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="httpError.js" path="C:\Users\Ana\Desktop\proiect-nodejs\proiect-nodejs\src\utils\httpError.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

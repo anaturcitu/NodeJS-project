@@ -1,0 +1,262 @@
+{"level":"info","message":"Retrieving all posts"}
+{"clientVersion":"5.13.0","code":"P2021","level":"error","meta":{"modelName":"User","table":"public.User"},"name":"PrismaClientKnownRequestError"}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.findMany()` invocation:\n\n{\n  include: {\n    author: true,\n    post: true,\n    ~~~~\n?   comments?: true,\n?   categories?: true,\n?   tags?: true,\n?   images?: true\n  }\n}\n\nUnknown field `post` for include statement on model `Post`. Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.findMany()` invocation:\n\n{\n  include: {\n    author: true,\n    post: true,\n    ~~~~\n?   comments?: true,\n?   categories?: true,\n?   tags?: true,\n?   images?: true\n  }\n}\n\nUnknown field `post` for include statement on model `Post`. Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.findMany()` invocation:\n\n{\n  include: {\n    author: true,\n    post: true,\n    ~~~~\n?   comments?: true,\n?   categories?: true,\n?   tags?: true,\n?   images?: true\n  }\n}\n\nUnknown field `post` for include statement on model `Post`. Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.findMany()` invocation:\n\n{\n  include: {\n    author: true,\n    post: true,\n    ~~~~\n?   comments?: true,\n?   categories?: true,\n?   tags?: true,\n?   images?: true\n  }\n}\n\nUnknown field `post` for include statement on model `Post`. Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Retrieving all comments"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.findMany()` invocation:\n\n{\n  include: {\n    author: true,\n    post: true,\n    ~~~~\n?   comments?: true,\n?   categories?: true,\n?   tags?: true,\n?   images?: true\n  }\n}\n\nUnknown field `post` for include statement on model `Post`. Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Retrieving all posts"}
+{"body":"{\n  \"postId\": 1\n  \"content\": \"This is an example comment content\"\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"error","message":{"errorMessage":"\"postId\" is not allowed","statusCode":400}}
+{"level":"error","message":{"errorMessage":"\"postId\" is not allowed","statusCode":400}}
+{"level":"error","message":{"errorMessage":"\"postId\" must be a string","statusCode":400}}
+{"level":"error","message":{"errorMessage":"\"postId\" must be a string","statusCode":400}}
+{"level":"error","message":{"errorMessage":"\"postId\" must be a string","statusCode":400}}
+{"level":"error","message":{"errorMessage":"\"postId\" must be a string","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    ~~~~~~\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n    post: {\n      connect: {\n        id: 1\n      }\n    },\n?   createdAt?: DateTime\n  }\n}\n\nUnknown argument `postId`. Did you mean `post`? Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    ~~~~~~\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n    post: {\n      connect: {\n        id: 1\n      }\n    },\n?   createdAt?: DateTime\n  }\n}\n\nUnknown argument `postId`. Did you mean `post`? Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n+   post: {\n+     create: PostCreateWithoutCommentsInput | PostUncheckedCreateWithoutCommentsInput,\n+     connectOrCreate: PostCreateOrConnectWithoutCommentsInput,\n+     connect: PostWhereUniqueInput\n+   }\n  }\n}\n\nArgument `post` is missing.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    ~~~~~~\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n    post: {\n      connect: {\n        id: 1\n      }\n    },\n?   createdAt?: DateTime\n  }\n}\n\nUnknown argument `postId`. Did you mean `post`? Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    ~~~~~~\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n    post: {\n      connect: {\n        id: 1\n      }\n    },\n?   createdAt?: DateTime\n  }\n}\n\nUnknown argument `postId`. Did you mean `post`? Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n{\n  data: {\n    postId: 1,\n    ~~~~~~\n    content: \"This is an example comment content\",\n    author: {\n      connect: {\n        id: 1\n      }\n    },\n    post: {\n      connect: {\n        id: 1\n      }\n    },\n?   createdAt?: DateTime\n  }\n}\n\nUnknown argument `postId`. Did you mean `post`? Available options are marked with ?.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Deleting comment with id: 1"}
+{"level":"error","message":{"errorMessage":"Comment with id 1 not found","statusCode":401}}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"error","message":{"errorMessage":"Post with id 1 not found","statusCode":400}}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. No 'Post' record(s) (needed to inline the relation on 'Comment' record(s)) was found for a nested connect on one-to-many relation 'CommentToPost'.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Deleting comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Comment with id 2 not found","statusCode":401}}
+{"level":"info","message":"Deleting comment with id: 2"}
+{"level":"error"}
+{"level":"info","message":"Deleting comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Comment with id 2 not found","statusCode":400}}
+{"level":"info","message":"Deleting comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Comment with id 2 not found","statusCode":400}}
+{"level":"info","message":"Updating comment with id: 2"}
+{"level":"error"}
+{"level":"info","message":"Updating comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Post with id 2 not found","statusCode":400}}
+{"level":"info","message":"Updating comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Post with id 2 not found","statusCode":400}}
+{"level":"info","message":"Updating comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Post with id 2 not found","statusCode":400}}
+{"level":"info","message":"Updating comment with id: 2"}
+{"level":"error","message":{"errorMessage":"Comment with id 2 not found","statusCode":400}}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Deleting comment with id: 3"}
+{"level":"error","message":{"errorMessage":"Comment with id 3 not found","statusCode":401}}
+{"level":"info","message":"Deleting comment with id: 3"}
+{"level":"error","message":{"errorMessage":"Comment with id 3 not found","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Deleting comment with id: 4"}
+{"level":"error","message":{"errorMessage":"\"tags\" is required","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n{\n  data: {\n    title: \"Example Post\",\n    content: \"This is an example post content\",\n    tags: {\n      create: [\n        {\n          name: undefined\n        },\n        {\n          name: undefined\n        }\n      ]\n    },\n    author: {\n      connect: {\n        id: 1\n      }\n    }\n  }\n}\n\nArgument `name` is missing.","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error","message":{"errorMessage":"\"categories\" is required","statusCode":400}}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n{\n  where: {\n    id: 3\n  },\n  data: {\n    title: \"Example Post\",\n    content: \"This is an example post content\",\n    tags: [\n      \"TAG 1\"\n    ]\n    ~~~~~~~~~\n  }\n}\n\nArgument `tags`: Invalid value provided. Expected TagUpdateManyWithoutPostsNestedInput or TagUncheckedUpdateManyWithoutPostsNestedInput, provided (String).","statusCode":400}}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n\nUnique constraint failed on the fields: (`name`)","statusCode":400}}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n\nUnique constraint failed on the fields: (`name`)","statusCode":400}}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n\nUnique constraint failed on the fields: (`name`)","statusCode":400}}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n{\n  where: {\n    id: 3\n  },\n  data: {\n    title: \"Example Post\",\n    content: \"This is an example post content\",\n    tags: {\n      connectOrCreate: [\n        {\n          name: \"TAG 1\"\n        }\n      ]\n    }\n  }\n}\n\nArgument `where` is missing.","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n\nUnique constraint failed on the fields: (`name`)","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n\nUnique constraint failed on the fields: (`name`)","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. No 'User' record(s) (needed to inline the relation on 'Post' record(s)) was found for a nested connect on one-to-many relation 'PostToUser'.","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n\nNull constraint violation on the fields: (`postId`)","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.create()` invocation:\n\n\nNull constraint violation on the fields: (`postId`)","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.update()` invocation:\n\n{\n  where: {\n    id: 3\n  },\n  data: {\n    title: \"Example Post\",\n    content: \"This is an example post content\",\n    tags: {\n      connectOrCreate: [\n        {\n          name: \"TAG 1\"\n        }\n      ]\n    }\n  }\n}\n\nArgument `where` is missing.","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Updating post with id: 3"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error","message":{"errorMessage":"Invalid token","statusCode":401}}
+{"level":"error","message":{"errorMessage":"Invalid token","statusCode":401}}
+{"level":"error","message":{"errorMessage":"Invalid token","statusCode":401}}
+{"level":"error","message":{"errorMessage":"Invalid token","statusCode":401}}
+{"body":"\"string\"","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"clientVersion":"5.13.0","code":"P2002","level":"error","meta":{"modelName":"User","target":["username"]},"name":"PrismaClientKnownRequestError"}
+{"level":"info","message":"Retrieving all posts"}
+{"code":"ENOENT","errno":-2,"level":"error","path":"uploads/1715716080263-Screenshot 2024-04-30 at 23.09.28.png","storageErrors":[],"syscall":"open"}
+{"level":"info","message":"Upload image to post with id: 4"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Upload image to post with id: 4"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Upload image to post with id: 4"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Signup user string"}
+{"clientVersion":"5.13.0","code":"P2002","level":"error","meta":{"modelName":"User","target":["username"]},"name":"PrismaClientKnownRequestError"}
+{"level":"info","message":"Login user undefined"}
+{"level":"error"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Signup user string"}
+{"clientVersion":"5.13.0","code":"P2021","level":"error","meta":{"modelName":"User","table":"public.User"},"name":"PrismaClientKnownRequestError"}
+{"level":"info","message":"Signup user string"}
+{"level":"error","message":{"errorMessage":"\"password\" is required","statusCode":400}}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.delete()` invocation:\n\n\nForeign key constraint failed on the field: `Tag_postId_fkey (index)`","statusCode":400}}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.delete()` invocation:\n\n\nForeign key constraint failed on the field: `Tag_postId_fkey (index)`","statusCode":400}}
+{"body":"{\n  \"title\": \"Example Post modificat\",\n  \"content\": \"This is an example post content modificat\",\n  \"tags\": [\n    \"TAG 1\",\n    \"TAG 2\",\n    \"TAG 3\",\n  ]\n}","expose":true,"level":"error","status":400,"statusCode":400,"type":"entity.parse.failed"}
+{"level":"info","message":"Updating post with id: 1"}
+{"level":"info","message":"Retrieving post with id: 1"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Updating comment with id: 1"}
+{"level":"info","message":"Deleting comment with id: 1"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Upload image to post with id: 1"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.post.delete()` invocation:\n\n\nForeign key constraint failed on the field: `Comment_postId_fkey (index)`","statusCode":400}}
+{"level":"info","message":"Signup user string"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Deleting post with id: 1"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. No 'Post' record(s) (needed to inline the relation on 'Comment' record(s)) was found for a nested connect on one-to-many relation 'CommentToPost'.","statusCode":400}}
+{"level":"info","message":"Creating comment"}
+{"level":"error","message":{"errorMessage":"\nInvalid `prisma.comment.create()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. No 'Post' record(s) (needed to inline the relation on 'Comment' record(s)) was found for a nested connect on one-to-many relation 'CommentToPost'.","statusCode":400}}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"error"}
+{"level":"info","message":"Retrieving comment with id: 1"}
