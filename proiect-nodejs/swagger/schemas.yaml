@@ -153,3 +153,14 @@ components:
           $ref: '#/components/schemas/Post'
         author:
           $ref: '#/components/schemas/User'
+    
+    Tag:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          description: The unique identifier of the tag
+        name:
+          type: string
+          description: The name of the tag

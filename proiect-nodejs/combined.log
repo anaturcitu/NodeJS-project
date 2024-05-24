@@ -260,3 +260,29 @@
 {"level":"info","message":"Retrieving comment with id: 1"}
 {"level":"error"}
 {"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Login user string1"}
+{"level":"error","message":{"errorMessage":"Invalid username","statusCode":401}}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Creating post"}
+{"level":"info","message":"Updating post with id: 2"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Retrieving post with id: 3"}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Creating comment"}
+{"level":"info","message":"Retrieving comment with id: 1"}
+{"level":"info","message":"Retrieving comment with id: 2"}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}
+{"level":"info","message":"Upload image to post with id: 2"}
+{"level":"info","message":"Signup user string1"}
+{"level":"info","message":"Login user string"}
+{"level":"info","message":"Retrieving all posts"}

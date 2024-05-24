@@ -130,3 +130,8 @@
 {"level":"error"}
 {"level":"error"}
 {"level":"error"}
+{"level":"error","message":{"errorMessage":"Invalid username","statusCode":401}}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
+{"level":"error","message":{"errorMessage":"No token provided","statusCode":401}}
